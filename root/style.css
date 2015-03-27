@@ -93,7 +93,7 @@ Tema razvijena za WordPress.
 			.homepage-feature .wrapper { width: 1000px; height: auto; margin: 0 auto; position: relative; }
 					.homepage-feature .wrapper .slider {   width: 100%; height: 500px; margin-bottom: 5px; } 
 					.slider {position: relative;}
-					.royalSlider { width: 100%!important; height: 500px; }
+					.royalSlider { width: 100%!important; height: 100%!important; }
 				
 				.homepage-feature .wrapper .boxes { width: 100%; height: auto; }
 					.homepage-feature .wrapper .boxes a {  width: 327px; height: 149px; float: left; margin-right: 9px; position: relative; }
