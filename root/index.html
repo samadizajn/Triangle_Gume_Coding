@@ -7,7 +7,19 @@
 	<link rel="stylesheet" href="style.css"> 
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic,subset=latin,cyrillic-ext,greek-ext,greek,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 	<script src="assets/js/jquery.scripts.js"></script>
+	<!-- basic stylesheet -->
+	<link rel="stylesheet" href="assets\royalslider/royalslider.css">
 
+	<!-- skin stylesheet (change it if you use another) -->
+	<link rel="stylesheet" href="assets/royalslider/skins/default/rs-default.css"> 
+
+	<!-- Plugin requires jQuery 1.8+  -->
+	<!-- If you already have jQuery on your page, you shouldn't include it second time. -->
+	<script src='assets/royalslider/jquery-1.8.3.min.js'></script>
+
+	<!-- Main slider JS script file --> 
+	<!-- Create it with slider online build tool for better performance. -->
+	<script src="assets/royalslider/jquery.royalslider.min.js"></script>
 
 </head>
 <body>
@@ -61,7 +73,42 @@
 <div class="homepage-feature">
 	<div class="wrapper">
 		<div class="slider">	
-			<img src="assets/images/slider_image.jpg" alt="">
+			<div class="royalSlider rsDefault">
+    <!-- simple image slide -->
+    <img class="rsImg" src="assets/images/slider_image.jpg" alt="image desc" />
+
+    <!-- lazy loaded image slide -->
+    <a class="rsImg" href="image.jpg">image desc</a>
+
+    <!-- HTML content slide -->
+    <p>Content goes here</p>
+
+    <!-- image and content -->
+    <div>
+        <img class="rsImg" src="image.jpg" data-rsVideo="https://vimeo.com/44878206" />
+        <p>Some content after...</p>
+    </div>
+
+    <!-- HTML content -->
+    <div>
+        Put any HTML content here
+    </div>
+
+    <!-- HTML content (100% with and height) -->
+    <div class="rsContent">
+        Put any HTML content here
+    </div>
+</div>	
+	<script>
+    jQuery(document).ready(function($) {
+        $(".royalSlider").royalSlider({
+            // options go here
+            // as an example, enable keyboard arrows nav
+            keyboardNavEnabled: true,
+            imageScaleMode: "fill"
+        });  
+    });
+</script>
 		</div> <!-- // slider -->
 
 		<div class="boxes">
