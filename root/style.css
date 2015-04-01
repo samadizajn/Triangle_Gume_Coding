@@ -112,26 +112,68 @@ Sasa izmjenio...
 
 		  	.content {}
 		  		.content .wrapper {width: 1000px; height: auto; margin: 0 auto; position: relative;}
-		  			.content .wrapper .tires_categories h2 {margin-bottom: 20px; font-weight: bold; font-family: ubuntu; font-size: 19px; }
-  					.content .wrapper .tires_categories a  {width: 180px; height: 192px; float: left; margin-right: 20px; margin-bottom: 60px;}
-		  			.content .wrapper .tires_categories p { width: 153px;height: 49px; left: 0; top: 0px; bottom: 0px; 
-		  					padding-left: 20px; padding-right: 20px; background: rgba(0, 0, 0, 0.87);
-		  					color: #fff; line-height: 50px; font-family: 'Ubuntu', sans-serif; 
-		  					font-weight: bold; font-size: 18px;}
+			  		.content .wrapper .tires_categories {width: 100%; position: relative; display: inline-block; margin-bottom: 20px;}
+			  			.content .wrapper .tires_categories h2 {margin-bottom: 20px; font-weight: bold; font-family: ubuntu; font-size: 25px; }
+			  				.content .wrapper .tires_categories ul {display: inline-block;}
+			  					.content .wrapper .tires_categories ul li {display: inline-block; position: relative; width: 192px; height: 180px; float: left; margin-right: 4px; }
+			  					.content .wrapper .tires_categories ul li:last-child {margin-right: 0;}
+	  								.content .wrapper .tires_categories ul li a  {display: inline-block; position: relative; width: 192px; height: 180px; float: left;}
+	  									.content .wrapper .tires_categories ul li a img {position: absolute;}
+			  							.content .wrapper .tires_categories p {
+			  								position: absolute; bottom: 0px; background: rgba(57, 48, 48, 0.54); 
+			  								color: #fff; line-height: 50px; 
+			  								font-family: 'Ubuntu', sans-serif; font-weight: bold; 
+			  								font-size: 15px; width: 100%; text-align: right;
+
+						  				}
 
 
-		  		.section { float: left;  margin-bottom: 20px; font-weight: bold; font-family:'Ubuntu'; font-size: 19px; margin-right: 15px;}
-		  			.section h2 {margin-bottom: 15px;}
-		  				.section p {width: 585px; height: auto; font-family: Ubuntu; font-size: 14px; font-weight: normal;}
+		  		.section { float: left;  margin-bottom: 20px; font-weight: bold; font-family:'Ubuntu'; font-size: 19px; margin-right: 15px; width: 585px;}
+		  			.section h2 {font-size: 25px; margin-bottom: 15px;}
+		  				.section p {width: auto; height: auto; font-family: Ubuntu; font-size: 14px; font-weight: normal; line-height: 22px; margin-bottom: 20px;}
+		  				.section p:last-child {margin-bottom: 0;}
+		  					.section p a {text-decoration: underline; font-weight: bold;}
 
 
-		  	.aside {margin-bottom: 20px; font-weight: bold; float: left; width: 385px; height: auto;}
-		  		.aside .wrapper {width: 1000px; height: auto; margin: 0 auto; position: relative;}
-				.aside .headlines {width: 395px;}
-				.aside .headlines p {  text-align: right; font-weight: normal; font-size: 14px; }
-					.aside h2 {font-family: 'Ubuntu'; font-size: 19px; margin-bottom: 15px;}
-					.aside .headlines p a {float: left; margin-right: 5px;}
-						.aside .headlines hr {margin-top: 10px; margin-bottom: 10px;}
+		  	/*.aside {margin-bottom: 20px; font-weight: bold; float: left; height: auto; width: 395px; display: block;}
+		  	.aside h2 {font-family: 'Ubuntu'; font-size: 25px; margin-bottom: 15px;}
+		  		.aside .headlines {width: 395px; height: auto; display: block;}
+				
+					
+						/*.aside .headlines ul {display: list-item;}*/
+						/*.aside .headlines ul li {display: list-item; float: left; margin-bottom: 10px;}*/
+						/*.aside .headlines ul li:last-child {margin-bottom: 0;}
+						.aside .headlines .left_side {width: 135px; float: left; position: absolute; margin-right: 2px;}
+							.aside .headlines .left_side a {width: 135px; height: 90px;}	
+							.aside .headlines .left_side a img {position: absolute;}
+							.aside .headlines .right_side {float: left; }
+							.aside .headlines .right_side .text {}
+								.aside .headlines .right_side .text p {display: block;} */
+
+				.aside {width: 395px; position: relative; float: right; font-weight: bold; }
+					.aside h2 {font-family: 'Ubuntu'; font-size: 25px; margin-bottom: 15px;}
+
+					.aside .headlines { width: 100%; height: 90px; border-bottom: 1px solid #c2c2c2; padding-bottom: 10px; margin-bottom: 10px; }
+						.aside .headlines .left_side { width: 135px; height: 90px; float: left; margin-right: 10px; }
+						.aside .headlines .right_side { float: left; height: 90px; width: 250px; } 
+							.aside .headlines .right_side .text {width: 255px; position: relative; }
+								.aside .headlines .right_side p.date { 
+									width: 100%; height: auto; 
+									font-size: 13px; font-family: 'Ubuntu', sans-serif;
+									font-weight: 300; color: #868686; 
+									margin-bottom: 6px; }
+								.aside .headlines .right_side p.short_text { 
+									width: 100%; font-weight: normal; line-height: 19px;
+									font-family: Ubuntu; font-size: 14px; color: #000000; }
+
+			 		.aside .pagination { width: 100%; height: auto; position: relative; margin-bottom: 10px; }
+			 			.aside .pagination ul {   width: 140px; height: auto; float: right; }
+			 				.aside .pagination ul li { float: left; margin-right: 5px; }
+			 					.aside .pagination ul li a { font-size: 13px; color: #929292; font-family: 'Ubuntu', sans-serif; font-weight: normal; }
+			 						.aside .pagination ul li a:hover {color: #ffd800; }
+
+
+						
 					
 
 			.footer {width: 100%; height: 100px; position: relative; border-top: 2px solid #FFD800; background-color: rgba(0, 0, 0, 1); }
