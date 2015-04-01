@@ -54,8 +54,7 @@ Sasa izmjenio...
 /*	3.0 - Header  */
 /* ================================== */
 	.header { width: 100%; height: 100px; position: relative; border-bottom: 2px solid #FFD800; background-color: rgba(0, 0, 0, 0.80);
-					 background:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55) ), url(assets/images/bg.jpg) top center;
-			}
+					 background:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55) ), url(assets/images/bg.jpg) top center; }
 		.header .wrapper {; width: 1000px; height: auto; margin: 0 auto; position: relative; }
 		.header .wrapper .head_stuf { position:  relative; width: 100%; height: 100px; margin-bottom: 20px; }
 			.header_logo { position: absolute; left: 0; top: 23px; }
@@ -81,6 +80,21 @@ Sasa izmjenio...
 								background: url("assets/images/header-socials-icons.png") -18px 0px no-repeat transparent;
 							}
 
+			#tfheader{} /* search bar */
+			#tfnewsearch{float: right; padding-top: 60px }
+			.tftextinput{
+				margin: 0; padding: 2px 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; border: 1px solid #0076a3; border-right: 0px;
+		 		border-top-left-radius: 5px 5px; border-bottom-left-radius: 5px 5px; width: 124px; }
+			.tfbutton {
+				margin: 0; padding: 2px 10px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; outline: none; cursor: pointer; text-align: center;
+			  text-decoration: none; color: #ffffff; border: solid 1px #0076a3; border-right: 0px; background: #0095cd; 
+			  background: -webkit-gradient(linear, left top, left bottom, from(#FFD800), to(rgba(255, 216, 0, 0.74)));
+			  background: -moz-linear-gradient(top, #00adee, #0078a5); border-top-right-radius: 5px 5px; border-bottom-right-radius: 5px 5px; }
+			.tfbutton:hover {
+				text-decoration: none; background: #007ead; background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+				background: -moz-linear-gradient(top,  #0095cc,  #00678e); }
+			.tfbutton::-moz-focus-inner {border: 0; }
+			.tfclear{clear:both; } /* end of search bar */
 
 			.header_navigation { position: absolute; left: 0; top: 60px; width: auto; height: auto; }
 				.header_navigation ul > li {display: inline; margin-right: 25px; }
@@ -110,7 +124,7 @@ Sasa izmjenio...
 						.homepage-feature .wrapper .boxes a p::after {content: ""; height: 51px; width: 29px; background-image: url(assets/images/box_title_bg.png);
 							background-position: right; background-repeat: no-repeat; position: absolute; right: -29px; top: 0; }
 
-		  	.content {}
+		  	.content {height: auto;}
 		  		.content .wrapper {width: 1000px; height: auto; margin: 0 auto; position: relative;}
 			  		.content .wrapper .tires_categories {width: 100%; position: relative; display: inline-block; margin-bottom: 20px;}
 			  			.content .wrapper .tires_categories h2 {margin-bottom: 20px; font-weight: bold; font-family: ubuntu; font-size: 25px; }
@@ -123,35 +137,25 @@ Sasa izmjenio...
 			  								position: absolute; bottom: 0px; background: rgba(57, 48, 48, 0.54); 
 			  								color: #fff; line-height: 50px; 
 			  								font-family: 'Ubuntu', sans-serif; font-weight: bold; 
-			  								font-size: 15px; width: 100%; text-align: right;
+			  								font-size: 15px; width: 100%; text-align: right; }
 
-						  				}
+			  		.content .wrapper .contact {float: left; font-family: 'Ubuntu', sans-serif; padding-top: 15px; width: auto; }
+			  		.content .wrapper .contact img {}
+			  		.content .wrapper .info {   float: left; padding-top: 15px}
+			  			.content .wrapper .info h2 {  margin-bottom: 20px; padding-top: 10px; font-size: 22px; font-weight: bold; font-family: 'Ubuntu'; }
+			  				.content .wrapper .info ul { font-family: 'Ubuntu', sans-serif; line-height: 1.5; }
+			  					.content .wrapper .info ul li {font-family: 'Ubuntu', sans-serif;}
 
 
 		  		.section { float: left;  margin-bottom: 20px; font-weight: bold; font-family:'Ubuntu'; font-size: 19px; margin-right: 15px; width: 585px;}
-		  			.section h2 {font-size: 25px; margin-bottom: 15px;}
+		  			.section h2 {font-size: 25px; margin-bottom: 15px;   margin-top: 15px; }
 		  				.section p {width: auto; height: auto; font-family: Ubuntu; font-size: 14px; font-weight: normal; line-height: 22px; margin-bottom: 20px;}
 		  				.section p:last-child {margin-bottom: 0;}
 		  					.section p a {text-decoration: underline; font-weight: bold;}
 
 
-		  	/*.aside {margin-bottom: 20px; font-weight: bold; float: left; height: auto; width: 395px; display: block;}
-		  	.aside h2 {font-family: 'Ubuntu'; font-size: 25px; margin-bottom: 15px;}
-		  		.aside .headlines {width: 395px; height: auto; display: block;}
-				
-					
-						/*.aside .headlines ul {display: list-item;}*/
-						/*.aside .headlines ul li {display: list-item; float: left; margin-bottom: 10px;}*/
-						/*.aside .headlines ul li:last-child {margin-bottom: 0;}
-						.aside .headlines .left_side {width: 135px; float: left; position: absolute; margin-right: 2px;}
-							.aside .headlines .left_side a {width: 135px; height: 90px;}	
-							.aside .headlines .left_side a img {position: absolute;}
-							.aside .headlines .right_side {float: left; }
-							.aside .headlines .right_side .text {}
-								.aside .headlines .right_side .text p {display: block;} */
-
 				.aside {width: 395px; position: relative; float: right; font-weight: bold; }
-					.aside h2 {font-family: 'Ubuntu'; font-size: 25px; margin-bottom: 15px;}
+					.aside h2 {font-family: 'Ubuntu'; font-size: 25px; margin-bottom: 15px; margin-top: 15px; }
 
 					.aside .headlines { width: 100%; height: 90px; border-bottom: 1px solid #c2c2c2; padding-bottom: 10px; margin-bottom: 10px; }
 						.aside .headlines .left_side { width: 135px; height: 90px; float: left; margin-right: 10px; }
@@ -184,3 +188,7 @@ Sasa izmjenio...
 						.footer_logo p {margin-top: 17px; font-family: 'Ubuntu'; font-size: 12px; color: #3b3b3b;}
 							 .go_to_top {position: absolute; right: 0; top: 23px; }
 								 .go_to_top p {margin-top: 10px; font-family: 'Ubuntu'; font-size: 12px; color: #3b3b3b;font-weight: bold; margin-left: -10px; }
+
+
+
+
