@@ -101,6 +101,10 @@ Sasa izmjenio...
 					.header_navigation ul > li a {color: #FFD800; font-family: 'Ubuntu'; font-size: 15px; }
 						.header_navigation ul > li > a:hover {color: #848482;}
 
+/* ================================== */
+/*	homepage-feature - slider  */
+/* ================================== */
+
 			.homepage-feature { background: url(assets/images/bg.jpg) no-repeat top -100px center; 
 								background-color: #000; height: 667px; border-bottom: 3px solid #FFD800; 
 								margin-bottom: 30px; padding-top: 20px; }
@@ -139,45 +143,47 @@ Sasa izmjenio...
 			  								font-family: 'Ubuntu', sans-serif; font-weight: bold; 
 			  								font-size: 15px; width: 100%; text-align: right; }
 
-			  		.content .wrapper .contact {float: left; font-family: 'Ubuntu', sans-serif; padding-top: 15px; width: auto; }
-			  			.content .wrapper .contact img {}
-			  		.content .wrapper .info {   float: left; padding-top: 15px; margin-left: 15px}
-			  			.content .wrapper .info h2 {  margin-bottom: 20px; padding-top: 10px; font-size: 22px; font-weight: bold; font-family: 'Ubuntu'; }
-			  				.content .wrapper .info ul { font-family: 'Ubuntu', sans-serif; line-height: 1.5; }
-			  					.content .wrapper .info ul li {font-family: 'Ubuntu', sans-serif;}
+					  		.content .wrapper .contact {float: left; font-family: 'Ubuntu', sans-serif; padding-top: 15px; width: auto; }
+					  			.content .wrapper .contact img {}
+					  		.content .wrapper .info {   float: left; padding-top: 15px; margin-left: 15px}
+					  			.content .wrapper .info h2 {  margin-bottom: 20px; padding-top: 10px; font-size: 22px; font-weight: bold; font-family: 'Ubuntu'; }
+					  			.content .wrapper .info ul { font-family: 'Ubuntu', sans-serif; line-height: 1.5; }
+					  				.content .wrapper .info ul li {font-family: 'Ubuntu', sans-serif;}
 
-			  		.content .wrapper .boxes {float: left; }
-			  			.content .wrapper .boxes h2 {  padding-top: 20px; margin-bottom: 20px; font-family: Ubuntu, sans-serif; font-weight: bold; font-size: 20px; }
-			  			.content .wrapper .boxes .first_box { width: 971px; height: 223px; background: rgba(176, 176, 176, 0.52); border: 1px solid rgba(151, 150, 150, 0.6); position: relative; }
-			  				.content .wrapper .boxes .first_box .left {float: left; width: 308px; height: 223px; }
-			  					.content .wrapper .boxes .first_box .left a img {margin: 9px; float: left; position: relative;}
-			  					.content .wrapper .boxes .first_box .right {   position: absolute; width: auto; float: left; display: inline-block; }
-			  						.content .wrapper .boxes .first_box .right a {margin: 9px; }
-			  							.content .wrapper .boxes .first_box .right a h5 {font-family: 'Ubuntu', sans-serif; font-weight: bold;}
-			  						.content .wrapper .boxes .first_box .right p.date {width: 100%; height: auto; font-size: 13px; font-family: 'Ubuntu', sans-serif;
-									font-weight: 300; color: #868686; margin-bottom: 9px; }
-								.content .wrapper .boxes .first_box .right p.aktuelnosti_text {font-family: 'Ubuntu'; font-size: 15px; font-weight: 100;
-									 line-height: 1.2; width: 100%; }
-								.content .wrapper .boxes .first_box .right button {float: right; margin: 9px; width: 125px; height: 25px; background: #ffd800; font-weight: normal; }
+					  		.content .wrapper .boxes {float: left; }
+					  			.content .wrapper .boxes h2 {  padding-top: 20px; margin-bottom: 20px; font-family: Ubuntu, sans-serif; font-weight: bold; font-size: 20px; }
+					  			.content .wrapper .boxes .first_box { width: 971px; height: 223px; background: rgba(176, 176, 176, 0.52); border: 1px solid rgba(151, 150, 150, 0.6); position: relative; }
+					  				.content .wrapper .boxes .first_box .left {float: left; width: 308px; height: 223px; }
+					  					.content .wrapper .boxes .first_box .left a img {margin: 9px; float: left; position: relative;}
+					  					.content .wrapper .boxes .first_box .right {   position: absolute; width: auto; float: left; display: inline-block; }
+					  						.content .wrapper .boxes .first_box .right a {margin: 9px; }
+					  							.content .wrapper .boxes .first_box .right a h5 {font-family: 'Ubuntu', sans-serif; font-weight: bold;}
+					  						.content .wrapper .boxes .first_box .right p.date {width: 100%; height: auto; font-size: 13px; font-family: 'Ubuntu', sans-serif;
+												font-weight: 300; color: #868686; margin-bottom: 9px; }
 
-						.content .wrapper .boxes .other_box {width: 720px; height: 127px; background: rgba(176, 176, 176, 0.52); border: 1px solid rgba(151, 150, 150, 0.6); margin-top: 15px; }
-							.content .wrapper .boxes .other_box .left {   float: left; width: 176px; height: 127px; }
-								.content .wrapper .boxes .other_box .left img { margin: 9px; float: left; position: relative; }
+										.content .wrapper .boxes .first_box .right p.aktuelnosti_text {font-family: 'Ubuntu'; font-size: 15px; font-weight: 100;
+												line-height: 1.2; width: 100%; }
+
+										.content .wrapper .boxes .first_box .right button {float: right; margin: 9px; width: 125px; height: 25px; background: #ffd800; font-weight: normal; }
+
+							.content .wrapper .boxes .other_box {width: 720px; height: 127px; background: rgba(176, 176, 176, 0.52); border: 1px solid rgba(151, 150, 150, 0.6); margin-top: 15px; }
+								.content .wrapper .boxes .other_box .left {   float: left; width: 176px; height: 127px; }
+									.content .wrapper .boxes .other_box .left img { margin: 9px; float: left; position: relative; }
 								.content .wrapper .boxes .other_box .right {  position: absolute; width: auto; float: left; display: inline-block;}
-								.content .wrapper .boxes .other_box .right a {margin: 9px; }
-									.content .wrapper .boxes .other_box .right a h5 {font-family: 'Ubuntu', sans-serif; font-weight: bold;}
-								.content .wrapper .boxes .other_box .right p.date {width: 100%; height: auto; font-size: 13px; font-family: 'Ubuntu', sans-serif;
-									font-weight: 300; color: #868686; margin-bottom: 9px; }
-								.content .wrapper .boxes .other_box .right p.aktuelnosti_text {font-family: 'Ubuntu'; font-size: 14px; font-weight: 100;
-									 line-height: 1.2;   width: 545px; }
-								.content .wrapper .boxes .other_box .right button {float: right; margin: 9px; width: 125px; height: 25px; background: #ffd800; font-weight: normal; }
+									.content .wrapper .boxes .other_box .right a {margin: 9px; }
+										.content .wrapper .boxes .other_box .right a h5 {font-family: 'Ubuntu', sans-serif; font-weight: bold;}
+									.content .wrapper .boxes .other_box .right p.date {width: 100%; height: auto; font-size: 13px; font-family: 'Ubuntu', sans-serif;
+											font-weight: 300; color: #868686; margin-bottom: 9px; }
+									.content .wrapper .boxes .other_box .right p.aktuelnosti_text {font-family: 'Ubuntu'; font-size: 14px; font-weight: 100;
+											 line-height: 1.2;   width: 545px; }
+									.content .wrapper .boxes .other_box .right button {float: right; margin: 9px; width: 125px; height: 25px; background: #ffd800; font-weight: normal; }
 						
 
-						.content .wrapper .boxes .pagination { width: 100%; height: auto; position: relative; margin-bottom: 25px; }
-			 				.content .wrapper .boxes .pagination ul {   width: 140px; height: auto; float: right; }
-			 					.content .wrapper .boxes .pagination ul li { float: left; margin-right: 5px; }
-			 						.content .wrapper .boxes .pagination ul li a { font-size: 13px; color: #929292; font-family: 'Ubuntu', sans-serif; font-weight: normal; }
-			 							.content .wrapper .boxes .pagination ul li a:hover {color: #ffd800; }
+							.content .wrapper .boxes .pagination { width: 100%; height: auto; position: relative; margin-bottom: 25px; }
+				 				.content .wrapper .boxes .pagination ul {   width: 140px; height: auto; float: right; }
+				 					.content .wrapper .boxes .pagination ul li { float: left; margin-right: 5px; }
+				 						.content .wrapper .boxes .pagination ul li a { font-size: 13px; color: #929292; font-family: 'Ubuntu', sans-serif; font-weight: normal; }
+				 							.content .wrapper .boxes .pagination ul li a:hover {color: #ffd800; }
 
 
 		  		.section { float: left;  margin-bottom: 20px; font-weight: bold; font-family:'Ubuntu'; font-size: 19px; margin-right: 15px; width: 585px;}
@@ -210,9 +216,56 @@ Sasa izmjenio...
 			 						.aside .pagination ul li a:hover {color: #ffd800; }
 
 
+					
+							.content .wrapper .left_sidebar {  float: left; position: relative; width: 300px; height: auto; line-height: 1.5; display: inline-block; }
+								.content .wrapper .left_sidebar h2 {margin-bottom: 15px; font-weight: bold; font-family: 'Ubuntu'; font-size: 25px; padding-top: 15px; }
+								.content .wrapper .left_sidebar ul {display: inline-block; }
+									.content .wrapper .left_sidebar ul li {display: inline-block; position: relative; width: 300px; height: auto; float: left; }
+										.content .wrapper .left_sidebar ul li a {color: #080707;  font-family: 'Ubuntu', sans-serif; font-size: 15px; }
+											.content .wrapper .left_sidebar ul li a:hover {color: #CDAE00;}
+
+							.content .wrapper .tires_list {  width: 600px; display: inline-block; }
+								.content .wrapper .tires_list h2 {margin-bottom: 15px; font-weight: bold; font-family: 'Ubuntu'; font-size: 25px; padding-top: 15px;}
+								.content .wrapper .tires_list .about_tire {width: 650px; height: auto; display: inline-block; float: left; line-height: 1.5; margin-bottom: 15px; }
+								.content .wrapper .tires_list .left_side_tire {width: 138px; height: 131px;   float: left; }
+									.content .wrapper .tires_list .left_side_tire img {width: 120px; height: 113px; margin: 9px; }
+									.content .wrapper .tires_list .right_side_tire {display: inline-block; position: relative; float: left; }
+										.content .wrapper .tires_list .right_side_tire p.right_side_headline {font-size: 25px; margin-bottom: 9px; }
+											.content .wrapper .tires_list .right_side_tire p.right_side_headline a {color: #000;}
+										.content .wrapper .tires_list .right_side_tire p.right_side_text { font-family: 'Ubuntu'; font-size: 15px; line-height: 1.3; width: 460px; }
+										.content .wrapper .tires_list .right_side_tire p.right_side_text a {   text-decoration: underline; color: #000; font-weight: 500; line-height: 1.7;}
+										.content .wrapper .tires_list  .pagination { width: 100%; height: auto; position: relative; margin-bottom: 10px; }
+											.content .wrapper .tires_list  .pagination ul {width: 140px; height: auto; float: right; }
+												.content .wrapper .tires_list  .pagination ul li {float: left; margin-right: 5px; }
+													.content .wrapper .tires_list  .pagination ul li a {font-size: 13px; color: #929292; font-family: 'Ubuntu', sans-serif; font-weight: normal;}
+														.content .wrapper .tires_list  .pagination ul li a:hover {color: #ffd800; }
+
+
+ /* =====================================*/
+/*	table                               */
+/* ====================================*/
+						.content .wrapper .about_tire {width: 600px; float: left;}
+							.content .wrapper .about_tire h2 {   float: left; margin-bottom: 15px; font-weight: bold; font-family: 'Ubuntu'; font-size: 25px; margin-top: 22px;}
+							.content .wrapper .about_tire p.in_detail { float: left; width: 600px; font-family: 'Ubuntu', sans-serif; font-size: 16px; line-height: 1.4; margin-bottom: 40px;}
+
+							
+								 .tg  {border-collapse:collapse;border-spacing:0;}
+									.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+									 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+									.tg .tg-uoe5{font-weight:bold;font-size:12px;font-family:Georgia, serif !important;;background-color:#000000;color:#ffffff;text-align:center}
+									.tg .tg-oe49{font-size:12px;font-family:Georgia, serif !important;;text-align:center}
+
+
+						.content .wrapper .gallery {width: 100%; height: auto; float: left;}
+							.content .wrapper .gallery h2 {  float: left; margin-bottom: 15px; font-weight: bold; font-family: 'Ubuntu'; font-size: 25px; margin-top: 22px;}
+							.content .wrapper .gallery ul {/*display: inline-block; */ float: left; background: rgba(204, 204, 204, 0.49); margin-bottom: 20px; padding: 8px;}
+								.content .wrapper .gallery ul li {  /* display: inline-block; */ float: left; width: 112px; height: 112px; margin-right: 4px; margin-bottom: 4px; overflow: hidden;}
+									.content .wrapper .gallery ul li a { float: left;}
 						
 					
-
+/* =====================================*/
+/*	footer                             */
+/* ===================================*/
 			.footer {width: 100%; height: 100px; position: relative; border-top: 2px solid #FFD800; background-color: rgba(0, 0, 0, 1); display: inline-block; }
 		  		.footer .wrapper {background: url(assets/images/footer_bg.jpg) no-repeat; width: 1000px; height: 100px; margin: 0 auto; position: relative;}
 		  		.footer_logo {position: absolute; left: 0; top: 23px;}
@@ -221,7 +274,3 @@ Sasa izmjenio...
 						.footer_logo p {margin-top: 17px; font-family: 'Ubuntu'; font-size: 12px; color: #3b3b3b;}
 							 .go_to_top {position: absolute; right: 0; top: 23px; }
 								 .go_to_top p {margin-top: 10px; font-family: 'Ubuntu'; font-size: 12px; color: #3b3b3b;font-weight: bold; margin-left: -10px; }
-
-
-
-
